@@ -295,7 +295,8 @@
             color: white;
         }
 
-        .hero-slide img {
+        .hero-slide img,
+        .hero-slide video {
             position: absolute;
             top: 0;
             left: 0;
@@ -464,19 +465,19 @@
                 <div class="swiper hero-carousel">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide hero-slide">
-                            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop"
-                                alt="Hostal Exterior">
+                            <video autoplay loop muted playsinline
+                                poster="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop">
+                                <source
+                                    src="https://drive.google.com/uc?export=download&id=1MM8LBj-VeL7lEJAe7OY5JA4Se9-Gx69A"
+                                    type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
                             <div class="hero-content">
-                                <h1 class="animate__animated animate__fadeInDown">¡Bienvenido a Hostal Plaza Lebu!</h1>
-                                <p class="animate__animated animate__fadeInUp">Tu puerta de entrada a la hermosa ciudad
-                                    costera de Lebu, Biobío</p>
+                                <h1 class="animate__animated animate__fadeInDown">Naturaleza en su Esplendor</h1>
+                                <p class="animate__animated animate__fadeInUp">Disfruta de la brisa marina y paisajes
+                                    inolvidables frente a nuestra costa.</p>
                                 <div class="flex gap-4 justify-center flex-wrap">
-                                    <a href="tel:+56995739562" class="btn-primary">
-                                        <i class="fas fa-phone"></i> Llamar Ahora
-                                    </a>
-                                    <a href="https://wa.me/56995739562" class="btn-primary">
-                                        <i class="fab fa-whatsapp"></i> WhatsApp
-                                    </a>
+                                    <a href="#" data-page="attractions" class="btn-primary">Ver Atracciones</a>
                                 </div>
                             </div>
                         </div>
